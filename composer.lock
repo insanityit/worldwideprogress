@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a22f67b70f837662f909f84c772fd745",
+    "hash": "a296b29f42093ec0d2ee44740af751d4",
     "content-hash": "4f9a3795eb3a2c15552e1db64a8b24aa",
     "packages": [
         {
@@ -1690,12 +1690,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "75522956174dd49a179e28e63d56539ccf1d6f9d"
+                "reference": "18ad53fc5662e0739a32f86d8dcbfbf5bd5b260a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/75522956174dd49a179e28e63d56539ccf1d6f9d",
-                "reference": "75522956174dd49a179e28e63d56539ccf1d6f9d",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/18ad53fc5662e0739a32f86d8dcbfbf5bd5b260a",
+                "reference": "18ad53fc5662e0739a32f86d8dcbfbf5bd5b260a",
                 "shasum": ""
             },
             "replace": {
@@ -1733,7 +1733,7 @@
                 "responsive",
                 "web"
             ],
-            "time": "2015-10-17 07:41:23"
+            "time": "2015-10-20 22:57:11"
         },
         {
             "name": "twig/twig",

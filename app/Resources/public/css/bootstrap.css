@@ -8,9 +8,13 @@ html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
+    height:100%;
+    padding-top:70px;
 }
 body {
   margin: 0;
+  height:100%;
+  padding-top:70px;
 }
 article,
 aside,
@@ -26,6 +30,7 @@ nav,
 section,
 summary {
   display: block;
+  height:calc(90% - 50px);
 }
 audio,
 canvas,
@@ -6585,7 +6590,21 @@ button.close {
   display: none !important;
 }
 .affix {
-  position: fixed;
+  padding:0px;
+  -webkit-transition:padding 0.2s linear;
+  -moz-transition:padding 0.2s linear;
+  -o-transition:padding 0.2s linear;
+  transition:padding 0.2s linear;
+
+}
+
+.affix-top {
+  padding-top:15px;
+  padding-bottom:15px;
+  -webkit-transition:padding 0.5s linear;
+  -moz-transition:padding 0.5s linear;
+  -o-transition:padding 0.5s linear;
+  transition:padding 0.5s linear;
 }
 @-ms-viewport {
   width: device-width;
